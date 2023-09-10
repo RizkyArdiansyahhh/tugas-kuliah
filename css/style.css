@@ -1,7 +1,3 @@
-/* #FEF9EC */
-/* FFBC0D */
-/* C02225 */
-/* 2D4356 */
 * {
   margin: 0;
   padding: 0;
@@ -33,18 +29,26 @@ body header nav ul {
   flex-direction: row-reverse;
   padding-inline: 2rem;
   font-size: 1.1rem;
+  cursor: pointer;
 }
 body header nav ul li {
   list-style-type: none;
   border: 2px solid transparent;
-  padding: 0.4rem;
+  padding: 0.4rem 0.5rem;
   border-radius: 99px;
   transition: 0.4s ease-out;
   font-weight: 600;
 }
+body header nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
 body header nav ul li:hover {
   background-color: #ffbc0d;
   border: 2px solid #ffbc0d;
+}
+body header nav ul li:hover a {
   color: #ffffff;
 }
 /* HEADER END */
@@ -181,7 +185,11 @@ body footer li {
 body footer li:hover {
   color: #ffbc0d;
 }
+/* FOOTER END */
 
+body main .content:target {
+  font-size: 6rem;
+}
 /* ANIMASI */
 @keyframes fly {
   0% {
