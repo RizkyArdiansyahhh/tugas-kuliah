@@ -186,10 +186,6 @@ body footer li:hover {
   color: #ffbc0d;
 }
 /* FOOTER END */
-
-body main .content:target {
-  font-size: 6rem;
-}
 /* ANIMASI */
 @keyframes fly {
   0% {
